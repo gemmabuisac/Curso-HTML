@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--AQUI COMIENZA EL DOCUMENTO HTML-->
+<html>
+<!--INICIO HEAD, CÓDIGO IMPORTANTE EN LA CABECERA-->
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Práctica1 HTML GemmaBM</title>
+</head>
+<!--FINALIZA HEAD, CÓDIGO IMPORTANTE EN LA CABECERA-->
+<!-- INICIO BODY, DONDE SUCEDE LA WEB-->
+
+<body>
+	<p> <!-- UNIDAD PÁRRAFO, PERMITE AÑADIR TEXTO--> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		<br /><!-- ETIQUETA BR, SALTO DE LÍNEA-->
+		<hr /> <!-- HR ETIQUETA DIVISOR O DIVIDER-->
+		Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+		<br />
+		<hr />
+		<!-- ETIQUETA IMAGEN-PONER IMAGEN CON LA RUTA Y NOMBRE ARCHIVO ENTRE COMILLADO AL INICIO Y AL FINAL, AÑADIENDO ATRIBUTOS WIDTH QUE ES EL TAMAÑO, ALT QUE ES DESCRIPCIÓN EN CASO QUE NO SE CARGUE Y PARA INCLUSIÓN Y TITLE PARA QUE APAREZCA CUANDO CLICAS ENCIMA DE LA FOTO -->
+		<img src="rsc/img/cursohtml.png" width="25%" height="25%" title="curso iniciación html">
+		<!-- FIN ETIQUETA IMAGEN-->
+		<hr> Excepteur sint occaecat cupidatat non
+		proident, <br />sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<!--AÑADO IMAGEN CON ATRIBUTO ALT, QUE DESCRIBE LA IMAGEN PARA EL SEO, Y PARA INCLUSIÓN-->
+	<img src="rsc/img/elf-fantasy.png" alt="ELFO GUERRERO VESTIDO DE VERDE" width="25%" title="elfo verde">
+	<!--ATRIBUTO WIDTH CON % PARA QUE SEA RESPONSIVO-->
+	<hr>
+	<img src="rsc/img/bcn.jpg" width="50%" height="25%"
+		alt="Vista panorámica de Barcelona al atardecer con la Torre Agbar y el Monumento a Colón visibles bajo un cielo dorado"
+		title="barcelona de tarde">
+	<!-- ATRIBUTOS ALIGN PARA POSICIONAR TEXTO-->
+	<p>párrafo a la izquierda</p>
+	<p align="right">párrafo a la derecha</p>
+	<p align="center">párrafo centrado</p>
+	<!-- FINALIZA UNIDAD PÁRRAFO-->
+	<!-- ANIDADO ETIQUETAS-->
+	<p><strong><u><em>Esto es un párrafo con varias etiquetas</em></u></strong></p>
+
+	<!--ESTO SON TÍTULOS PRINCIPALES-->
+	<h1 align="center">Desarrollo web y desarrollo Apps</h1> <!--NO SE PUEDE REPETIR EN TODA LA PÁGINA-->
+	<h2 align="center">Gemma Buisac</h2>
+	<h3 align="center">Barcelona y alrededores</h3>
+	<h4>Esto es h4</h4>
+	<h5>Esto es h5</h5>
+	<h6>ESto es h6</h6>
+	<h3>Tipos de citas</h3>
+	<cite>Esto es una cita "cite"</cite>
+	<blockquote>Esto es una cita "blockquote"</blockquote>
+	<q>Esto es una cita "q"</q>
+
+	<!--ENLACES ANCLA POR EJEMPLO LA FLECHA VOLVER ARRIBA-->
+	<h3>Enlaces</h3>
+	<a href="#">Enlaza en este texto</a>
+	<!--AL PONER EL # EL ENLACE TE LLEVA AL INICIO DE LA PÁGINA-->
+	<hr>
+	</hr>
+	<h2>Segundo enlace al exterior</h2>
+	<!--ENLAZA A CONTENIDO EXTERNO, DESCARGA DE NUESTRA CARPETA RSC-->
+	<a href="rsc/pdf/Introduccio-al-Front-End-HTML-CSS-i-Bootstrap (1).pdf"" target=" _blank"Descarga el pdf </a>
+		<H2>Descarga el pdf</H2>
+		<hr>
+		<!--FIN, ENLAZA A CONTENIDO EXTERNO, DESCARGA DE NUESTRA CARPETA RSC-->
+		<!--ENLACE DENTRO DE IMAGEN, PRIMERO CREAMOS ETIQUETA ENLACE, AÑADIMOS IMAGEN DENTRO Y MODIFICAMOS TAMAÑO, COLOCAMOS DESTINO-->
+		<a href="https://danimcasas.com/wp-content/uploads/2024/09/Introduccio-al-Front-End-HTML-CSS-i-Bootstrap.pdf"
+			target="_blanck" title="Resumen clase html">
+			<img src="rsc/icon/flecha-hacia-abajo.png" width="5%" height="5%">
+		</a>
+		<hr>
+		<!--FIN, ENLACE DENTRO DE IMAGEN, PRIMERO CREAMOS ETIQUETA Y AÑADIMOS IMAGEN DENTRO Y MODIFICAMOS TAMAÑO, COLOCAMOS DESTINO-->
+		<hr>
+
+		<!--ENLAZAMOS IMAGENES A METODOS DE CONTACTO-->
+		<h2>Contacto mediante iconos</h2>
+		<a href="mailto:gemmabuisac@gmail.com">
+			<img src="rsc/icon/mail.png" width="5%" height="5%">
+		</a>
+		<hr>
+		<a href="tel:+34600223399">
+			<img src="rsc/icon/movil.png" width="5%" height="5%">
+		</a>
+		<hr>
+		<a href="https://wa.me/34600223399">
+			<img src="rsc/icon/whatsapp.png" width="5%" height="5%">
+		</a>
+		<hr>
+		<!--FIN, ENLAZAMOS IMAGENES A METODOS DE CONTACTO-->
+		<!--MODELO DE CAJAS DIV-->
+		<div>
+			<div class="sección">
+				<h2>Dentro del div, esto es un h2</h2>
+				<p>Esto es un párrafo</p>
+				<img src="rsc/img/elf-fantasy.png" width="25%" height="25%">
+			</div class>
+		</div>
+		<hr>
+
+		<h2>listas html</h2>
+		<h3> Lista desordenada</h3>
+		<div>
+			<ul type="square">
+				<li>Patatas</li>
+				<li>Garbanzos</li>
+				<li>Arroz</li>
+				<li>Peras</li>
+
+			</ul>
+		</div>
+		<hr>
+
+		<h2>Lista ordenada</h2>
+		<ol type="l" start="3">
+			<li>Elemento 1</li>
+			<li>Elemento 2</li>
+			<li>Elemento 3</li>
+			<li>Elemento 4</li>
+		</ol>
+		<h2>Imagen con enlace</h2>
+		<a href="https://danimcasas.com/wp-content/uploads/2024/09/Introduccio-al-Front-End-HTML-CSS-i-Bootstrap.pdf"
+			target="_blank">
+			<img src="rsc/img/elf-fantasy.png" width="25%" />
+		</a>
+
+		<!--INCRUSTAR VIDEO-->
+		<h2>insertar videos</h2>
+		<iframe src="https://www.youtube.com/watch?v=12vvBvr1ouc"></iframe>
+
+		<video src="/rsc/videos/video1.mp4>">
+		</video>
+
+
+
+		<!--FIN MODELO DE CAJAS DIV-->
+		ACABARLO
+
+		<!-- FINALIZA BODY, DONDE SUCEDE LA WEB-->
+</body>
+<!--AQUI FINALIZA EL DOCUMENTO HTML-->
+
+</html>
